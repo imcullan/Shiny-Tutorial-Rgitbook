@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!-- this file is called template.html -->
+<head>
+    <!--This code is necessary to include important shiny-related references -->
+    {{headContent()}}
+    <!--To use bootstrap for styling this will add the references -->
+    {{bootstrapLib()}}
+</head>
+
+<body>
+    <div class="container">
+        <!-- I'm using HTML directly -->
+        <div class="jumbotron" style="text-align: center;">
+            <h2 class="display-3">HTML templates with Shiny</h2>
+            <p class="lead">Details on creating Shiny apps with HTML templates. And a random photo</p>
+            <img src="http://lorempixel.com/200/100" />
+        </div>
+
+        <h2>Block of controls from the Shiny UI</h2> 
+        <!-- shinycontrols is an object from the ui -->
+        {{shinycontrols}}
+
+        <h2>Slider and radio buttons</h2>
+        <!-- justslider is an object from the ui -->
+        {{justslider}}
+        {{radioButtons("my_radio", "Radio buttons from the HTML template", c("A", "B", "C"), "C")}}
+
+
+        <h2>You can do calculations with R directly</h2>
+        
+        The average of a sequence of numbers from 1 to 10 is {{mean(1:10)}}!
+    </div>
+</body>
+</html>

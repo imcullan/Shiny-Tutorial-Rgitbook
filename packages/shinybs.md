@@ -1,0 +1,3 @@
+# shinyBS
+
+The [shinyBS package](https://ebailey78.github.io/shinyBS/), created by Eric Bailey, offers some nice Bootstrap-related components like modals, collapses, and related. Unfortunately, it's not clear that it's being maintained (last commit in April 2015) and many of the components do not work with the most recent versions of Shiny. The functions can still be useful to help guide the creation of updated versions of the components. See, for example, [this discussion](https://github.com/ebailey78/shinyBS/issues/62) where the modal function is altered to work with current Shiny. For now you might hold off on using this one.
