@@ -1,5 +1,5 @@
 # Shiny for Bridgewater
-#### by Next Level Analytics
+#### by Cullan Liang
 
 Shiny enables you to write powerful interactive web applications entirely in R. Using R, you create a user interface and server, and Shiny compiles your code into the HTML, CSS and JavaScript needed to display your application on the web. What makes a Shiny app particularly powerful is that it can execute R code on the backend so your app can perform any R calculation you can run on your desktop. Perhaps you want your app to slice and dice a dataset based on user inputs? Or maybe you want your web app to run linear models, GAMs or machine learning methods on user-selected data? In either case, Shiny can help.
 
